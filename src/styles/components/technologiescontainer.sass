@@ -1,6 +1,6 @@
 @use '../variables'
 @use '../mixins'
-    
+
 .technologies-container
     margin-bottom: 1rem
 
@@ -15,7 +15,11 @@
         padding: 1rem
         border: 1px solid #333
         width: 45%
-        border-radius: variables.$card-border-radius 
+        border-radius: variables.$card-border-radius
+
+        &:hover
+            border: 1px solid #fa5252
+            cursor: default
 
         h3
             color: variables.$text-color
@@ -27,23 +31,60 @@
     #html
         svg
             color: #E44D26
+            width: 5rem
 
     #css
         svg
             color: #1572B6
+            width: 5rem
+
+    #sass
+        svg
+            color: #FF1ED6
+            width: 5rem
 
     #js
         svg
             color: #F0DB4F
+            width: 4.5rem
 
-    #node
+    #python
         svg
-            color: #83CD29
+            color: #FF8C00
+            width: 5rem
+
+    #sql
+        svg
+            color: #00618A
+            width: 6rem
 
     #mysql
         svg
-            color: #00618A
+            color: #1525b6
+            width: 6rem
 
-    #react
+    #mongodb
         svg
-            color: #61DAFB
+            color: #2E8B57
+            width: 4.5rem
+
+    #docker
+        svg
+            color: #0000FF
+            width: 6rem
+
+    #aws
+        svg
+            color: #18d415
+            width: 5rem
+
+    #sigma
+        svg
+            color: #FF1E1E
+            width: 3rem
+
+    #scrum
+        svg
+            color: #7B68EE
+            width: 6rem
+
