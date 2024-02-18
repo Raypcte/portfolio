@@ -6,11 +6,16 @@
     align-items: center
 
 @mixin btn
-    padding: 1rem 1.2rem
+    padding: 1rem 1.5rem
     color: variables.$text-color
     background: variables.$gradient
+    font-size: 1rem
+    font-weight: bold
     text-decoration: none
     border-radius: 3rem
+
+    &:hover
+        filter: brightness(.6)
 
 @mixin gradient-border
     content: ""
